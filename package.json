@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "serve": "lerna run dev",
+    "serve:server": "lerna run --scope server dev",
+    "serve:marketing": "lerna run --scope marketing dev",
+    "serve:app": "lerna run --scope app dev",
+    "clean": "lerna clean"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
